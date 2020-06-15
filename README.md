@@ -14,38 +14,14 @@
 
 ## Прогресс
 
-*Assignment 1*
-
-[x] ```KNN.ipynb```
-
-[x] ```Linear classifier.ipynb```
-
-*Assignment 2*
-
-[ ] ```Neural Network.ipynb```
-
-[ ] ```PyTorch.ipynb```
-
-*Assignment 3*
-
-[ ] ```CNN.ipynb```
-
-[ ] ```PyTorch_CNN.ipynb```
-
-*Assignment 4*
-
-[ ] ```HotDogOrNot.ipynb```
-
-*Assignment 5*
-
-[ ] ```Word2Vec.ipynb```
-
-[ ] ```Negative Sampling.ipynb```
-
-*Assignment 6*
-
-[ ] ```RNNs.ipynb```
-
-*Assignment 7*
-
-[ ] ```REIFORCE.ipynb```
+- [x] *assignment 1*: ```KNN.ipynb```
+- [x] *assignment 1*: ```Linear classifier.ipynb```
+- [ ] *assignment 2*: ```Neural Network.ipynb```
+- [ ] *assignment 2*: ```PyTorch.ipynb```
+- [ ] *assignment 3*: ```CNN.ipynb```
+- [ ] *assignment 3*: ```PyTorch_CNN.ipynb```
+- [ ] *assignment 4*: ```HotDogOrNot.ipynb```
+- [ ] *assignment 5*: ```Word2Vec.ipynb```
+- [ ] *assignment 5*: ```Negative Sampling.ipynb```
+- [ ] *assignment 6*: ```RNNs.ipynb```
+- [ ] *assignment 7*: ```REIFORCE.ipynb```
