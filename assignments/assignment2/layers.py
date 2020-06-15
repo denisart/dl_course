@@ -186,8 +186,8 @@ class FullyConnectedLayer:
         # the previous assignment
 
         d_input = np.dot(d_out, np.transpose(self.W.value))
-        self.W.grad = np.dot(np.transpose(self.X), d_out)
-        self.B.grad = np.dot(np.ones((1, d_out.shape[0])), d_out)
+        self.W.grad += np.dot(np.transpose(self.X), d_out)
+        self.B.grad += np.dot(np.ones((1, d_out.shape[0])), d_out)
 
         return d_input
 
