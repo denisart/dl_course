@@ -70,12 +70,12 @@ def cross_entropy_loss(probs, target_index):
     else:
         loss = -np.sum(np.log(
             probs[np.arange(target_index.size), target_index]
-        ))
+        )) / target_index.size
 
     return loss
 
 
-def softmax_with_cross_entropy(preds, target_index):
+def softmax_with_cross_entropy(predictions, target_index):
     """
     Computes softmax and cross-entropy loss for model predictions,
     including the gradient
@@ -92,15 +92,14 @@ def softmax_with_cross_entropy(preds, target_index):
                    predictions by loss value
     """
     # TODO: Copy from the previous assignment
-    dprediction = softmax(preds)
+    dprediction = softmax(predictions)
     loss = cross_entropy_loss(dprediction, target_index)
 
     if type(target_index) is int:
         dprediction[target_index] -= 1
     else:
-        dprediction[np.arange(target_index.size),
-                    target_index] = dprediction[np.arange(target_index.size),
-                                                target_index] - 1
+        dprediction[np.arange(target_index.size), target_index] -= 1
+        dprediction /= target_index.size
 
     return (loss, dprediction)
 

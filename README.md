@@ -16,7 +16,7 @@
 
 - [x] *assignment 1*: ```KNN.ipynb```
 - [x] *assignment 1*: ```Linear classifier.ipynb```
-- [ ] *assignment 2*: ```Neural Network.ipynb```
+- [x] *assignment 2*: ```Neural Network.ipynb```
 - [ ] *assignment 2*: ```PyTorch.ipynb```
 - [ ] *assignment 3*: ```CNN.ipynb```
 - [ ] *assignment 3*: ```PyTorch_CNN.ipynb```

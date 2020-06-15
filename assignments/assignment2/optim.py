@@ -26,7 +26,6 @@ class MomentumSGD:
     """
     def __init__(self, momentum=0.9):
         self.momentum = 0.9
-        self.velocity = 0.
 
     def update(self, w, d_w, learning_rate):
         """
@@ -43,6 +42,10 @@ class MomentumSGD:
         # TODO Implement momentum update
         # Hint: you'll need to introduce some variables to remember
         # velocity from the previous updates
-        self.velocity = self.momentum * self.velocity - learning_rate * d_w
+        try:
+            self.velocity = self.momentum * self.velocity - learning_rate * d_w
+        except AttributeError as ae:
+            self.velocity = np.zeros_like(w)
+            self.velocity = self.momentum * self.velocity - learning_rate * d_w
 
-        raise w + self.velocity
+        return w + self.velocity
