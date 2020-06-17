@@ -18,7 +18,7 @@
 - [x] *assignment 1*: ```Linear classifier.ipynb```
 - [x] *assignment 2*: ```Neural Network.ipynb```
 - [x] *assignment 2*: ```PyTorch.ipynb```
-- [ ] *assignment 3*: ```CNN.ipynb```
+- [x] *assignment 3*: ```CNN.ipynb```
 - [ ] *assignment 3*: ```PyTorch_CNN.ipynb```
 - [ ] *assignment 4*: ```HotDogOrNot.ipynb```
 - [ ] *assignment 5*: ```Word2Vec.ipynb```
