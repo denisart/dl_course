@@ -19,7 +19,7 @@
 - [x] *assignment 2*: ```Neural Network.ipynb```
 - [x] *assignment 2*: ```PyTorch.ipynb```
 - [x] *assignment 3*: ```CNN.ipynb```
-- [ ] *assignment 3*: ```PyTorch_CNN.ipynb```
+- [x] *assignment 3*: ```PyTorch_CNN.ipynb```
 - [ ] *assignment 4*: ```HotDogOrNot.ipynb```
 - [ ] *assignment 5*: ```Word2Vec.ipynb```
 - [ ] *assignment 5*: ```Negative Sampling.ipynb```
