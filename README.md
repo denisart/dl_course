@@ -21,7 +21,7 @@
 - [x] *assignment 3*: ```CNN.ipynb```
 - [x] *assignment 3*: ```PyTorch_CNN.ipynb```
 - [x] *assignment 4*: ```HotDogOrNot.ipynb```
-- [ ] *assignment 5*: ```Word2Vec.ipynb```
+- [x] *assignment 5*: ```Word2Vec.ipynb```
 - [ ] *assignment 5*: ```Negative Sampling.ipynb```
 - [ ] *assignment 6*: ```RNNs.ipynb```
 - [ ] *assignment 7*: ```REIFORCE.ipynb```
