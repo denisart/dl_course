@@ -23,5 +23,5 @@
 - [x] *assignment 4*: ```HotDogOrNot.ipynb```
 - [x] *assignment 5*: ```Word2Vec.ipynb```
 - [x] *assignment 5*: ```Negative Sampling.ipynb```
-- [ ] *assignment 6*: ```RNNs.ipynb```
+- [x] *assignment 6*: ```RNNs.ipynb```
 - [ ] *assignment 7*: ```REIFORCE.ipynb```
